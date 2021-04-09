@@ -1,0 +1,33 @@
+
+      .header {
+        width: 100%;
+        height: 5rem;
+        background-color: #FFFFFF;
+        margin: auto 0;
+        padding: 0;                
+      }          
+   
+     
+      .header__wrapper {        
+        width: 100%;
+       
+      }
+     
+      .socials {  
+        margin-left: 20rem;              
+        max-width: .4rem;
+      }
+  
+      .search_icon {
+        float: right;   
+        margin-right: -38rem;  
+        margin-top: -2.5rem;
+        width: 4rem;
+      }
+
+      .btn_wrapper {
+        display: flex;        
+        margin-top: -1.6rem;
+        margin-left: 46rem;
+        
+      }

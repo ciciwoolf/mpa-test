@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.wrapper {
+    display: flex;
+    float: right;  
+    margin-top: -1.6rem;
+    margin-right: 11rem;  
+    list-style: none;
+    background-color: #FFFFFF;    
+  }
+
+   .wrapper li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #676565;
+    font-size: 1.3rem;
+  }
+
+  :hover li a {
+    color: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+  }
