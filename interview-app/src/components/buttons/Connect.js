@@ -1,5 +1,5 @@
-import React from "react";
-import styles from  "./connect-button.module.css";
+import React from "react"
+import styles from  "./connect-button.module.css"
 
 
 export const Connect = () => {

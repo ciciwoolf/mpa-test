@@ -18,6 +18,11 @@
     font-size: 1.3rem;
   }
 
-  :hover li a {
-    color: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+  li a:hover {
+    color: #FF00B8;
   }
+  
+
+
+
+  

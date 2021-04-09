@@ -1,2 +1,4 @@
 import {Connect} from "./Connect"
-export {Connect}
+import {LearnLink} from "./LearnLink"
+
+export {Connect, LearnLink}

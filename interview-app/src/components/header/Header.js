@@ -1,8 +1,8 @@
-import React from "react";
+import React from "react"
 import {SocialIcons} from "../social-icons"
 import {MenuItems} from "../menu-items"
 import {Connect} from "../buttons"
-import styles from "./header.module.css";
+import styles from "./header.module.css"
 
 
 export const Header = () => {
@@ -22,7 +22,11 @@ export const Header = () => {
             </div> 
             <div>
             <img className={styles.search_icon} src="https://mpa-img.s3.amazonaws.com/searchglass.png" alt="" />
-            </div>
+            <img className={styles.glass_icon} src="https://mpa-img.s3.amazonaws.com/glass.png" alt=""/>
+            </div>  
+            <div>
+              <img className={styles.logo_icon} src="https://mpa-img.s3.amazonaws.com/logo+(2).png" alt=""/>
+            </div>              
         </div>  
     </header>   
     

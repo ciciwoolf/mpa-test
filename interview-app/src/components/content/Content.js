@@ -1,18 +1,16 @@
-import React from "react";
-import { Switch, Route } from "react-router-dom";
-import styles from "./content.module.css";
-import {IncubatorPage, LearnPage, StartUpPage, ServicePage, EventsPage, JoinPage  } from "../pages";
+import React from "react"
+import { Switch, Route } from "react-router-dom"
+import styles from "./content.module.css"
+import {IncubatorPage, LearnPage, StartUpPage, ServicePage, EventsPage, JoinPage  } from "../pages"
 
 //component={StartUpDetail}  put into startup/:id Route
 
 export const Content = () => {
   return (
-    <section className="appBody">
+    <section className="appBody" className={styles.body_wrapper}>
       <Switch>
-        <Route exact path="/">  
-        <div className={styles.wrapper}>
-          <IncubatorPage/>   
-          </div>            
+        <Route exact path="/">        
+          <IncubatorPage/>                        
         </Route>
         <Route exact path="/learn">
           <LearnPage />
@@ -31,5 +29,5 @@ export const Content = () => {
         </Route>
       </Switch>
     </section>
-  );
-};
+  )
+}

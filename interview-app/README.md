@@ -1,11 +1,22 @@
 # MPA Interview Test
 
+
+##Typography
 Font Families: Red Hat Display // Roboto
-background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=Roboto:wght@100&display=swap');
 font-family: 'Red Hat Display', sans-serif;
 font-family: 'Roboto', sans-serif;
 
+##Colors
+background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+Magenta: #FF00B8
+Yellow: #FFC700
+Dark Blue: #151371
+
+##Logo
+
+https://minorityprogrammers.com/assets/images/mp_asset_icon.svg
 
 Added dependencies:
 yarn package manager
@@ -35,3 +46,7 @@ Components:
 -social media link items
 -additional info (bottom of incubator page)
 -banner 
+
+## Deployment
+
+https://aws.amazon.com/getting-started/hands-on/host-static-website/
