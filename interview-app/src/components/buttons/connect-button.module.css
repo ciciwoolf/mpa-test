@@ -4,11 +4,11 @@
 .btn {
     background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
     border-radius: 2rem;
-    border: none;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1rem;
-    color: #FF00B8;
-    
+    color: #FF00B8;  
+    border: none;
+    padding: .1rem .1rem .1rem .1rem; 
    
 }
 
@@ -17,6 +17,7 @@ span {
     border-radius: 2rem; 
     padding-right: 1rem;
     padding-left: 1rem;   
+    
 
      /* background: -webkit-linear-gradient104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
     -webkit-background-clip: text;
@@ -29,3 +30,48 @@ span:hover {
     cursor: pointer;
 }
 
+/* 
+.btn_learn {
+    float: right;
+    color: #FFFFFF;
+    background: linear-gradient(161.32deg, #FF00B8 3.86%, #151371 98.64%);    
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: .25rem 1.25rem .25rem 1.25rem;
+    border: none;       
+            
+}
+
+.btn_give {
+    float:left;
+    color: #FFFFFF;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: .25rem 1.25rem .25rem 1.25rem;
+    border: none;    
+   
+}
+
+.btn_learnTwo {    
+    
+    color: #FFFFFF;
+    background: linear-gradient(161.32deg, #FF00B8 3.86%, #151371 98.64%);    
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 2rem;    
+    width: 80%;
+    border: none;       
+            
+} */

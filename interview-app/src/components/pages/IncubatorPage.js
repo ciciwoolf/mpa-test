@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./incubator.module.css"
 import { FeaturedCard } from "../cards/FeaturedCard"
 import { UpcomingCard } from "../cards/UpcomingCard"
-import {FeaturedData, UpcomingData} from "./data"
+import {FeaturedData, UpcomingData} from "../../data/data"
 
 
 export const IncubatorPage = () => {
@@ -20,9 +20,11 @@ export const IncubatorPage = () => {
                 </div>
               </div>  
 
-            <div className={styles.card_body}>             
-              <div className={styles.card_featured}>    
-              <h2 className={styles.card_headers}>Featured Startups</h2>  
+            
+           
+        <div className={styles.card_body}>                 
+            <h1 className={styles.card_headerOne}>Featured Startups </h1>              
+              <div className={styles.card_featured}> 
 
               {FeaturedData.map((item)=> {
                     console.log(item)
@@ -30,27 +32,48 @@ export const IncubatorPage = () => {
                       <FeaturedCard
                         id={item.id}
                         key={item.id}
-                        image={item.image}                      
+                        name={item.name}
+                        description={item.description}
+                        currentFunding={item.currentFunding}
+                        fundingGoal={item.fundingGoal}
+                        image={item.image}          
+                        learnLink={item.learnLink}
+                        giveLink={item.giveLink}            
                       />
                     )
                 })}
               </div>   
 
-              <div className={styles.card_upcoming}>
-                <h2 className={styles.card_headers}>Upcoming Startups</h2>   
-
+              <h1 className={styles.card_headerTwo}>Upcoming Startups</h1>  
+              <div className={styles.card_upcoming}>                
                 {UpcomingData.map((item)=> {
                     console.log(item)
                     return (
                       <UpcomingCard
-                        id={item.id}
-                        key={item.id}
-                        image={item.image}                      
+                      id={item.id}
+                      key={item.id}
+                      name={item.name}
+                      description={item.description}
+                      currentFunding={item.currentFunding}
+                      fundingGoal={item.fundingGoal}
+                      image={item.image}          
+                      learnLink={item.learnLink}                    
                       />
                     )
                 })}               
             </div>     
-          </div>
+        
+            <div className={styles.threeButtons}>
+                <button className={styles.btn}>Advise a Startup</button>
+                <button className={styles.btn}>Join Minority Venures Cohort</button>
+                <button className={styles.btn}>Help &lt;Cod/e&gt; </button>                
+            </div>
+        
+        </div>
+      
+     
      </div>
+
+     
   )
 }
