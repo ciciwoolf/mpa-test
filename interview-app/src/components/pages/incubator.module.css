@@ -11,7 +11,8 @@
 }
 
 .banner_header {
-    height: 23rem;
+    height: 28rem;
+    padding-bottom: 5rem;
     background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
     margin-top: 2rem;
 }
@@ -40,6 +41,7 @@
     float: right;
     margin-top: -4.5rem; 
     margin-right: 5rem;  
+    margin-bottom: 1rem;
     color: #FFFFFF;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 4rem;
@@ -55,4 +57,34 @@
 }
 
 /* Section with Cards */
+
+/* .card_body {
+    width: 100%;
+    
+} */
+
+
+.card_featured {    
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    
+}
+
+.card_upcoming {    
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    
+}
+
+.card_headers {
+    position: absolute;
+    margin-top: -6rem;
+    float: left;
+    color: #3C3B88;    
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 4.3rem;
+}
+
 

@@ -1,7 +1,7 @@
 import React from "react"
 import { Switch, Route } from "react-router-dom"
 import styles from "./content.module.css"
-import {IncubatorPage, LearnPage, StartUpPage, ServicePage, EventsPage, JoinPage  } from "../pages"
+import {IncubatorPage, LearnPage, StartUpPage, ServicePage, EventsPage, JoinPage  } from "../pages";
 
 //component={StartUpDetail}  put into startup/:id Route
 

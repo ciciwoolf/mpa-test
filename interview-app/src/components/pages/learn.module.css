@@ -10,7 +10,8 @@
 }
 
 .banner_header {
-    height: 23rem;
+    height: 28rem;
+    padding-bottom: 5rem;
     background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
     margin-top: 2rem;
 }
@@ -24,28 +25,28 @@
 .butterfly {
     float: left; 
     width: 16%;   
-    margin-top: 3.5rem; 
+    margin-top: .1rem; 
     margin-left: 1rem;
 }
 
 
 .banner_text {
     float: right;
-    margin-top: -3.5rem; 
+    margin-top: -6.7rem; 
     margin-right: 5rem;  
     color: #FFFFFF;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     width: 50%;   
 }
 
 .banner_textTwo {
     float: right;
     margin-top: -2.5rem; 
-    margin-right: 7rem;  
+    margin-right: 30rem;  
     color: #FFFFFF;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: italic;
       
 }

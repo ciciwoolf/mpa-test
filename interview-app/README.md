@@ -9,7 +9,8 @@ font-family: 'Red Hat Display', sans-serif;
 font-family: 'Roboto', sans-serif;
 
 ##Colors
-background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+Orange/Magenta: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+Purple: linear-gradient(161.32deg, #FF00B8 3.86%, #151371 98.64%);
 Magenta: #FF00B8
 Yellow: #FFC700
 Dark Blue: #151371

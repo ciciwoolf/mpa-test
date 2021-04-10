@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./incubator.module.css"
 import { FeaturedCard } from "../cards/FeaturedCard"
 import { UpcomingCard } from "../cards/UpcomingCard"
-import {FeaturedData, UpcomingData} from "./data"
+import {FeaturedData, UpcomingData} from "../../data/data"
 
 
 export const IncubatorPage = () => {
@@ -22,7 +22,7 @@ export const IncubatorPage = () => {
 
             <div className={styles.card_body}>             
               <div className={styles.card_featured}>    
-              <h2 className={styles.card_headers}>Featured Startups</h2>  
+              <div className={styles.card_headers}>Featured Startups</div>  
 
               {FeaturedData.map((item)=> {
                     console.log(item)
@@ -30,22 +30,32 @@ export const IncubatorPage = () => {
                       <FeaturedCard
                         id={item.id}
                         key={item.id}
-                        image={item.image}                      
+                        projectnName={item.name}
+                        projectDescription={item.description}
+                        currentFunding={item.currentFunding}
+                        fundingGoal={item.fundingGoal}
+                        image={item.image}          
+                        learnLink={item.learnLink}
+                        giveLink={item.giveLink}            
                       />
                     )
                 })}
               </div>   
 
               <div className={styles.card_upcoming}>
-                <h2 className={styles.card_headers}>Upcoming Startups</h2>   
-
+                <div className={styles.card_headers}>Upcoming Startups</div>  
                 {UpcomingData.map((item)=> {
                     console.log(item)
                     return (
                       <UpcomingCard
-                        id={item.id}
-                        key={item.id}
-                        image={item.image}                      
+                      id={item.id}
+                      key={item.id}
+                      projectnName={item.name}
+                      projectDescription={item.description}
+                      currentFunding={item.currentFunding}
+                      fundingGoal={item.fundingGoal}
+                      image={item.image}          
+                      learnLink={item.learnLink}                    
                       />
                     )
                 })}               
