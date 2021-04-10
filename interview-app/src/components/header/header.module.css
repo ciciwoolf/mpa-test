@@ -1,7 +1,7 @@
 
       .header {
         width: 100%;
-        height: 6rem;
+        height: 4rem;
         background-color: #FFFFFF;
         margin: auto 0;
         padding: 0;                
@@ -15,15 +15,15 @@
       }
      
       .socials {  
-        margin-left: 25rem;              
+        margin-left: 9rem;              
         
       }
   
       .search_icon {
         float: right;   
-        margin-right: -42rem;  
-        margin-top: -2.5rem;
-        width: 5rem;
+        margin-right: -27.5rem;  
+        margin-top: -2rem;
+        width: 3rem;
       }
 
       .search_icon:hover {
@@ -34,20 +34,21 @@
 
       .glass_icon {
         float: right;   
-        margin-right: -41.2rem;  
-        margin-top: -2.1rem;
-        width: 3rem;
+        margin-right: -27rem;  
+        margin-top: -1.5rem;
+        width: 1.5rem;
       }
 
       .btn_wrapper {
         display: flex;        
         margin-top: -1.6rem;
-        margin-left: 70rem;        
+        margin-left: 30rem;     
+           
       }
 
        .logo_icon {
         float: left;   
-        margin-left: 4rem;
-        margin-top: -2rem;
-        width: 15rem;
+        margin-left: 1.5rem;
+        margin-top: 0rem;
+        width: 8rem;
       }

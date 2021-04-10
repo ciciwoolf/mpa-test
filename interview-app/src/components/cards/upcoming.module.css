@@ -1,7 +1,7 @@
 
 
 .cardBody {
-    display: flex;   
+    display: flex;    
     width: 22%;
     flex-grow: 1;
     justify-content: space-around;
@@ -19,17 +19,15 @@
     margin: -.5rem;    
     border-radius: 97px;
     background: #FFFFFF;
-    align-content: center;
     }
 
  .image {
      width: 8rem;
      margin: 0 auto;
-     
  }   
 
+
 h5 {
-    
     margin-top: -2rem;
     float: right;
     font-family: "Red Hat Display";
@@ -73,8 +71,6 @@ h5 {
     border: none;       
             
 }
-
-
 
 .btn_learnTwo {    
     

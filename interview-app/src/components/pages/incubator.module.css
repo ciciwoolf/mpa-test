@@ -1,25 +1,32 @@
 
+
+
+html {
+    height: 100%;
+}
+
 /* Banner */
 
 .page_body {
     width: 97%;
     height: 100%;
-    height: 100vh;
     margin: 0 auto;
     border-radius: 1.5rem;
     background-color: #FFFFFF;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .banner_header {
-    height: 28rem;
-    padding-bottom: 5rem;
+    height: 20rem;
+    padding-bottom: 2rem;
     background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
     margin-top: 2rem;
 }
 
 .map{
     float: left; 
-    width: 26%;   
+    width: 28%;   
     
 }
 
@@ -39,12 +46,12 @@
 
 .banner_text {
     float: right;
-    margin-top: -4.5rem; 
+    margin-top: -16.5rem; 
     margin-right: 5rem;  
     margin-bottom: 1rem;
     color: #FFFFFF;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     width: 50%;    
 }
 
@@ -58,33 +65,67 @@
 
 /* Section with Cards */
 
-/* .card_body {
-    width: 100%;
-    
-} */
-
 
 .card_featured {    
     width: 100%;
     display: flex;
     flex-direction: row; 
+    flex-grow: 1;
+    padding: 4rem 1rem 1rem 0;
     
 }
 
 .card_upcoming {    
     width: 100%;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;  
     
 }
 
-.card_headers {
-    position: absolute;
-    margin-top: -6rem;
+.card_headerOne {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: -1rem;
     float: left;
     color: #3C3B88;    
     font-family: 'Red Hat Display', sans-serif;
     font-size: 4.3rem;
+    /* padding: 2rem 0 3rem 3rem; */
+    
+}
+
+.card_headerTwo {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    float: left;
+    color: #3C3B88;    
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 4.3rem;
+    /* padding: 0 0 0rem 3rem; */
+}
+
+/*Three Buttons Section */
+
+.threeButtons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    padding: 1rem 0 1rem 0;
+    justify-content: space-around;
+}
+
+.btn {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+    border-radius: 30px;
+    border: none;
+    width: 30%;    
+       
 }
 
 

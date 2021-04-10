@@ -10,43 +10,43 @@
 }
 
 .banner_header {
-    height: 28rem;
-    padding-bottom: 5rem;
+    height: 20rem;
+    padding-bottom: 1rem;
     background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
     margin-top: 2rem;
 }
 
 .map{
     float: left; 
-    width: 26%;   
+    width: 28%;   
     
 }
 
 .butterfly {
     float: left; 
     width: 16%;   
-    margin-top: .1rem; 
-    margin-left: 1rem;
+    margin-top: 2rem; 
+    margin-left: -.5rem;
 }
 
 
 .banner_text {
     float: right;
-    margin-top: -6.7rem; 
+    margin-top: -3.7rem; 
     margin-right: 5rem;  
     color: #FFFFFF;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     width: 50%;   
 }
 
 .banner_textTwo {
     float: right;
     margin-top: -2.5rem; 
-    margin-right: 30rem;  
+    margin-right: 4rem;  
     color: #FFFFFF;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
       
 }

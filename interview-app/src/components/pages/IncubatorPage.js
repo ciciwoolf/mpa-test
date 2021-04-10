@@ -20,9 +20,11 @@ export const IncubatorPage = () => {
                 </div>
               </div>  
 
-            <div className={styles.card_body}>             
-              <div className={styles.card_featured}>    
-              <div className={styles.card_headers}>Featured Startups</div>  
+            
+           
+        <div className={styles.card_body}>                 
+            <h1 className={styles.card_headerOne}>Featured Startups </h1>              
+              <div className={styles.card_featured}> 
 
               {FeaturedData.map((item)=> {
                     console.log(item)
@@ -30,8 +32,8 @@ export const IncubatorPage = () => {
                       <FeaturedCard
                         id={item.id}
                         key={item.id}
-                        projectnName={item.name}
-                        projectDescription={item.description}
+                        name={item.name}
+                        description={item.description}
                         currentFunding={item.currentFunding}
                         fundingGoal={item.fundingGoal}
                         image={item.image}          
@@ -42,16 +44,16 @@ export const IncubatorPage = () => {
                 })}
               </div>   
 
-              <div className={styles.card_upcoming}>
-                <div className={styles.card_headers}>Upcoming Startups</div>  
+              <h1 className={styles.card_headerTwo}>Upcoming Startups</h1>  
+              <div className={styles.card_upcoming}>                
                 {UpcomingData.map((item)=> {
                     console.log(item)
                     return (
                       <UpcomingCard
                       id={item.id}
                       key={item.id}
-                      projectnName={item.name}
-                      projectDescription={item.description}
+                      name={item.name}
+                      description={item.description}
                       currentFunding={item.currentFunding}
                       fundingGoal={item.fundingGoal}
                       image={item.image}          
@@ -60,7 +62,18 @@ export const IncubatorPage = () => {
                     )
                 })}               
             </div>     
-          </div>
+        
+            <div className={styles.threeButtons}>
+                <button className={styles.btn}>Advise a Startup</button>
+                <button className={styles.btn}>Join Minority Venures Cohort</button>
+                <button className={styles.btn}>Help &lt;Cod/e&gt; </button>                
+            </div>
+        
+        </div>
+      
+     
      </div>
+
+     
   )
 }
