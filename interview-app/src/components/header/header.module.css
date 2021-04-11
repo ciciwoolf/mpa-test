@@ -52,3 +52,8 @@
         margin-top: 0rem;
         width: 8rem;
       }
+
+      .logo_icon:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }

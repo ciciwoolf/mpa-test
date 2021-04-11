@@ -119,31 +119,46 @@
     {
         id: 1,
         title: "Intro to BlockChain",
-        tag: "blockchain, cryptocurrency fundamentals"
+        tag: "blockchain, cryptocurrency fundamentals",
+        currentModule: "8.3",
+        totalModule: "10",
+        learnLink: "/learn"
     },
 
     {
         id: 2,
         title: "Intro to BlockChain",
-        tag: "blockchain, cryptocurrency fundamentals"
+        tag: "blockchain, cryptocurrency fundamentals",
+        currentModule: "8.3",
+        totalModule: "10",
+        learnLink: "/learn"
     },
 
     {
         id: 3,
         title: "Intro to BlockChain",
-        tag: "blockchain, cryptocurrency fundamentals"
+        tag: "blockchain, cryptocurrency fundamentals",
+        currentModule: "8.3",
+        totalModule: "10",
+        learnLink: "/learn"
     },
 
     {
         id: 4,
         title: "Intro to BlockChain",
-        tag: "blockchain, cryptocurrency fundamentals"
+        tag: "blockchain, cryptocurrency fundamentals",
+        currentModule: "8.3",
+        totalModule: "10",
+        learnLink: "/learn"
     },
 
     {
         id: 5,
         title: "Intro to BlockChain",
-        tag: "blockchain, cryptocurrency fundamentals"
+        tag: "blockchain, cryptocurrency fundamentals",
+        currentModule: "8.3",
+        totalModule: "10",
+        learnLink: "/learn"
     }
 
   ]
@@ -153,31 +168,73 @@
     {
         id: 1,
         title: "Intro to BlockChain",
-        tag: "blockchain, cryptocurrency fundamentals"
+        tag: "blockchain, cryptocurrency fundamentals",
+        currentModule: "8.3",
+        totalModule: "10",
+        learnLink: "/learn"
     },
 
     {
         id: 2,
         title: "Intro to BlockChain",
-        tag: "blockchain, cryptocurrency fundamentals"
+        tag: "blockchain, cryptocurrency fundamentals",
+        currentModule: "8.3",
+        totalModule: "10",
+        learnLink: "/learn"
     },
 
     {
         id: 3,
         title: "Intro to BlockChain",
-        tag: "blockchain, cryptocurrency fundamentals"
+        tag: "blockchain, cryptocurrency fundamentals",
+        currentModule: "8.3",
+        totalModule: "10",
+        learnLink: "/learn"
     },
 
     {
         id: 4,
         title: "Intro to BlockChain",
-        tag: "blockchain, cryptocurrency fundamentals"
+        tag: "blockchain, cryptocurrency fundamentals",
+        currentModule: "8.3",
+        totalModule: "10",
+        learnLink: "/learn"
     },
 
     {
         id: 5,
         title: "Intro to BlockChain",
-        tag: "blockchain, cryptocurrency fundamentals"
+        tag: "blockchain, cryptocurrency fundamentals",
+        currentModule: "8.3",
+        totalModule: "10",
+        learnLink: "/learn"
     }
 
   ]
+
+  export const CategoryData = [
+    {
+        id: 1,
+        title: "Engineering",
+        image: "https://mpa-img.s3.amazonaws.com/threeGears.png"
+    },
+
+    {
+        id: 2,
+        title: "Science",
+        image: "https://mpa-img.s3.amazonaws.com/pinkMap.png"
+    },
+
+    {
+        id: 3,
+        title: "Innovation",
+        image: "https://mpa-img.s3.amazonaws.com/pinkHand.png"
+    },
+
+    {
+        id: 4,
+        title: "Programming",
+        image: "https://mpa-img.s3.amazonaws.com/flyingGear.png"
+    }
+
+]
